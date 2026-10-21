@@ -48,7 +48,8 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <optional>true</optional>
+            <version>1.18.32</version> <!-- Agrega esta línea para forzar la versión -->
+            <scope>provided</scope>   <!-- Cambiado a provided para compilar correctamente -->
         </dependency>
 
         <!-- Starter único de pruebas (Corregido y unificado) -->
